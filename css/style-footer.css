@@ -8,18 +8,22 @@ body{
 }
 
 .footer{
-  background: #31333f;
+  background: linear-gradient(to bottom, #2c3e50, #4ca1af);
   width: 100%;
-  height: 75px;
+  height: 80px;
   border-top: solid 1px #1f2027;
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .slicica{
   display: block;
   border-radius: 5px;
-  margin: 0;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  float: right;
+  
 }
 
 .footer h4{
@@ -27,11 +31,17 @@ body{
   color: #efefef;
   font-style: italic;
   margin-top: 25px;
+  
 }
 
 .github{
   margin-top: 10px;
   margin-left: 20px;
+
+  
+}
+.fsekcija{
+  width: 33%;
 }
 
 @media screen and (min-width:1200px){
@@ -40,6 +50,8 @@ body{
     border-radius: 5px;
     margin: 0;
     margin-right: 300px;
+    margin-top: 10px;
+    float: left;
   }
   
   .footer h4{
@@ -54,5 +66,34 @@ body{
   .github{
     margin-top: 10px;
     margin-left:500px;
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (min-width:768px){
+  .slicica{
+    display: block;
+    float: left;
+    border-radius: 5px;
+    margin: 0;
+    margin-top: 10px;
+
+  }
+  
+  .footer h4{
+    font-size: 25px;
+    color: #efefef;
+    font-style: italic;
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .github{
+    margin-top: 10px;
+    float: right;
+    display: block;
   }
 }

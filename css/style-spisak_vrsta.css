@@ -7,9 +7,11 @@ body{
   backface-visibility: hidden;
 }
 
-
+.pozadina{
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+}
 .aside {
-  background-color: #063b41;
+  
   width: 100%;
   height: auto;
   margin: 0;
