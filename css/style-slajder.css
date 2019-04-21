@@ -30,7 +30,9 @@ body{
   width: 100%;
   
 }
-
+.slider-nav img:hover { 
+  transform: scale(1.2);  
+}
 .slider-nav {
   opacity: 0.7; 
   max-width: 100%;

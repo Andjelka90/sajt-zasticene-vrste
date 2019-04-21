@@ -33,6 +33,10 @@ body{
   z-index: 4;
 }
 
+.modal-header h3{
+  font-size: 25px;
+}
+
 @media screen and (min-width: 1200px) {
   .modal-content {
     width: 600px;
@@ -54,7 +58,7 @@ body{
   font-style: italic;
   font-weight: 500;
   padding: 10px 0;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .modal-header .modal-close {
