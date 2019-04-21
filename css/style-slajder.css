@@ -28,8 +28,11 @@ body{
 
 .slider-for img {
   width: 100%;
-  
+  border: 15px solid rgba(189, 156, 156, 0.089);
+ 
 }
+
+
 .slider-nav img:hover { 
   transform: scale(1.2);  
 }
@@ -43,6 +46,7 @@ body{
 .slider-nav img {
   width: 100%;
   margin: 10px 0;
+  
 }
 
 
@@ -57,6 +61,11 @@ body{
     width: 75%;
     margin: 0 auto;
     outline: none; 
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
   }
   .slider-nav {
     opacity: 0.7;
@@ -66,6 +75,12 @@ body{
 
   .slider-nav img {
     margin: 30px; 
+    
+  }
+
+  .slider-for img:hover{
+    border: 70px solid rgba(0, 0, 0, 0.089);
+    border-radius: 50%;
     
   }
 
