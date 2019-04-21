@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  backface-visibility: hidden;
+}
+
+
+.aside {
+  background-color: #063b41;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+.aside h2 {
+  color: rgba(238, 230, 230, 0.705);
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.aside {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.aside h3 {
+  font-style: italic;
+  color: rgba(238, 230, 230, 0.705);
+  font-size: 11px;
+  display: inline;
+  padding: 0 5px;
+  white-space: nowrap;
+}
+
+.aside h3::before {
+  content: "\2663  ";
+}
+
+@media screen and (min-width: 1200px) {
+  .aside {
+    padding: 20px 10px;
+    margin: 0;
+  }
+  .aside h2 {
+    padding: 10px;
+    font-size: medium;
+    font-size: 36px;
+    color: rgba(238, 230, 230, 0.705);
+  }
+  .aside h3 {
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+  }
+  .aside h3::before {
+    content: "  \2663  ";
+  }
+  .aside h3::after {
+    content: "  \2663  ";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .aside {
+    padding: 20px 10px;
+    margin: 0;
+  }
+  .aside h2 {
+    padding: 10px;
+    font-size: medium;
+    font-size: 36px;
+    color: rgba(238, 230, 230, 0.705);
+  }
+  .aside h3 {
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+  }
+  .aside h3::before {
+    content: "  \2663  ";
+  }
+  .aside h3::after {
+    content: "  \2663  ";
+  }
+}

@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  backface-visibility: hidden;
+}
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.navigacija {
+  font-size: 18px;
+  background: #31333f;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  height: auto;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.linkovi, .logolevo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+}
+.linkovi{
+  font-size: 15px;
+}
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+  font-weight: 700;
+  display: block;
+}
+
+.aktivni {
+  font-style: italic;
+  color: #efefef;
+}
+
+.logolevo {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-style: italic;
+}
+
+.navigacija-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+ 
+}
+
+.active {
+  display: block;
+}
+
+.logolevo:hover, .linkovi:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+@media screen and (min-width:1200px){
+  
+  .meni{
+    display: table;
+    margin: 0 auto;
+  }
+ 
+  .logolevo{
+    font-size: 30px;
+  }
+  .navigacija-toggle img{
+    width: 50px;
+    height: 50px;
+  }
+  .linkovi{
+    font-size: 20px;
+  }
+}
+
