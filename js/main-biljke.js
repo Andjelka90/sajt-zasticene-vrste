@@ -38,6 +38,7 @@ let closeImgs = document.querySelectorAll('.modal-close');
 
 closeImgs.forEach(function (img) {
   img.onclick = function () {
+    let modal = img.closest('.modal').style.display = 'none';
   }
 })
 
