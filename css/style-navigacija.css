@@ -11,22 +11,7 @@ html{
   scroll-behavior: smooth;
 }
 @media screen and (min-width:1200px){
-#back-to-top{
-  display: inline-block;
-    background: rgba(93, 93, 93, 0.4) url("../images/earth-kids.jpg") no-repeat;
-    background-position: center;
-    height: 100px;
-    width: 100px;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    z-index: 2;
-    border: 2px solid gray;
-    border-radius: 40px;
-    transition: all 300ms linear 0s;
-    -webkit-transition: all 300ms linear 0s;
-  
-}
+
 }
 .header {
   margin: 0;
@@ -76,6 +61,10 @@ html{
   font-style: italic;
 }
 
+.logolevo span{
+  font-style: normal;
+}
+
 .navigacija-toggle {
   position: absolute;
   top: 10px;
@@ -95,21 +84,47 @@ html{
 }
 
 @media screen and (min-width:1200px){
-  
-  .meni{
-    display: table;
-    margin: 0 auto;
-  }
- 
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: right;
+}
+ .meni{
+   text-align: center;
+ }
   .logolevo{
     font-size: 30px;
+    margin-bottom: 10px;
+    
   }
   .navigacija-toggle img{
-    width: 50px;
-    height: 50px;
+    display: none;
   }
   .linkovi{
     font-size: 20px;
+  }
+ .back-to-top{
+  overflow: hidden;
+ }
+  
+
+  #back-to-top{
+    display: inline-block;
+      background: rgba(93, 93, 93, 0.4) url("../images/earth-kids.jpg") no-repeat;
+      background-position: center;
+      height: 100px;
+      width: 100px;
+      position: fixed;
+      right: 50px;
+      bottom: 50px;
+      z-index: 2;
+      border: 2px solid gray;
+      border-radius: 40px;
+      overflow: hidden;
+      transition: all 300ms linear 0s;
+      -webkit-transition: all 300ms linear 0s;
+     
   }
 }
 
