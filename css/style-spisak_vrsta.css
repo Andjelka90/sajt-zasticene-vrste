@@ -43,6 +43,10 @@ body{
   content: "\2663  ";
 }
 
+.aside a{
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1200px) {
   .aside {
     padding: 20px 10px;
