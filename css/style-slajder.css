@@ -7,6 +7,35 @@ body{
   backface-visibility: hidden;
 }
 
+ /* radi */
+.slider-for,
+.slider-nav {
+   visibility: hidden;
+   opacity: 0;  
+   transition: opacity 0.1s;
+}
+
+.slider-for.slick-initialized,
+.slider-nav.slick-initialized {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+.slider-for .modal-open{
+  display: none ;
+}
+
+.slider-for .modal-open:first-child {
+  display: block; 
+  visibility: hidden;
+} 
+
+.slider-for.slick-initialized .modal-open {
+  display: block;
+  visibility: visible!important;
+}
+
+/*radi*/
 
 .karusel {
   background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
