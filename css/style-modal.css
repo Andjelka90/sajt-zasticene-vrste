@@ -42,7 +42,7 @@ body{
     width: 600px;
     height: 300px;
     padding: 6px 20px;
-    margin-top: 250px;
+    margin-top: 15%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -50,7 +50,7 @@ body{
     width: 600px;
     height: 300px;
     padding: 6px 20px;
-    margin-top: 250px;
+    margin-top: 15%;
   }
 }
 
