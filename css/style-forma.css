@@ -93,11 +93,13 @@
 
 
 @media(min-width:768px){
+  
   .okvir{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 10px;
     margin-top: 20%;
+    margin-bottom: 20%;
   }
 
   .centar img{
@@ -108,9 +110,9 @@
 	height:300px;
 	width:300px;
   }
-  .pozadina{
+  /* .pozadina{
     height: 90vh;
-  }
+  } */
   .error{
     color: red;
     font-size: 15px;
@@ -123,8 +125,10 @@
 @media(min-width:1200px){
   .okvir{
     margin-top: 10%;
+    margin-bottom: 10%;
   }
-  .pozadina{
+  /* .pozadina{
     height: 90vh;
-  }
+  } */
+  
 }
