@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body,#slajder,.okvir,.sadrzaj {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.okvir {
+  position: relative;
+}
+
+
+.slajd{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   
+}
+
+.slajd1{
+  background-image: url(../images/paralax3.jpg);
+}  
+.slajd2{
+  background-image: url(../images/paralax6.jpg);   
+}
+.slajd3{
+  background-image: url(../images/paralax7.jpg);
+}
+
+.sadrzaj{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.container {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+ 
+}
+
+.sadrzaj span{
+    font-size: 15px;
+    color:black;
+}
+
+.strelice {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;  
+    
+}
+
+  
+#strelica-levo {
+    left: 0;
+    margin-left: 10px;
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+
+}
+  
+#strelica-desno {
+    right: 0;
+    margin-right: 10px;
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+
+}
+
+
+@media screen and (min-width:768px){
+  .container {
+    margin-top:50%;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+}
+
+
+@media screen and (min-width:1200px){
+  .container {
+   
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+}
