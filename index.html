@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="en">
 
 <head>
+    <title>Naslovna</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Zaštićene biljke</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="images/save-species-small-faded.jpg" type="image/png">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style-navigacija.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style-footer.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style-index.css">
 
 
+
+    <link rel="stylesheet" href="css/style-index-karusel.css">
+    <link rel="stylesheet" href="css/style-navigacija.css">
+    <link rel="stylesheet" href="css/style-footer.css">
 </head>
 
 <body>
@@ -51,7 +49,8 @@
                         </div>
                         <ul class="main-nav" id="js-menu">
                             <li>
-                                <a href="#" class="linkovi aktivni">Naslovna <img src="images/ecology.png" alt=""></span></a>
+                                <a href="#" class="linkovi aktivni">Naslovna <img src="images/ecology.png"
+                                        alt=""></span></a>
                             </li>
                             <li>
                                 <a href="biljke.html" class="linkovi">Biljke <span> <img src="images/plant.png"
@@ -62,14 +61,16 @@
                                             alt=""></span></a>
                             </li>
                             <li>
-                                <a href="ribe.html" class="linkovi">Ribe <span><img src="images/fish.png" alt=""></span></a>
-                            </li>
-                            <li>
-                                <a href="ptice.html" class="linkovi">Ptice <span><img src="images/penguin.png" alt=""></a>
-                            </li>
-                            <li>
-                                <a href="herpetofauna.html" class="linkovi"> Herpetofauna <span> <img src="images/turtle.png"
+                                <a href="ribe.html" class="linkovi">Ribe <span><img src="images/fish.png"
                                             alt=""></span></a>
+                            </li>
+                            <li>
+                                <a href="ptice.html" class="linkovi">Ptice <span><img src="images/penguin.png"
+                                            alt=""></a>
+                            </li>
+                            <li>
+                                <a href="herpetofauna.html" class="linkovi"> Herpetofauna <span> <img
+                                            src="images/turtle.png" alt=""></span></a>
                             </li>
                             <li>
                                 <a href="sisari.html" class="linkovi">Sisari <span> <img src="images/hedgehog.png"
@@ -89,23 +90,32 @@
     </div>
 
 
-    <div class="paralex">
 
-        <div id="box1">
-            <h1>Text</h1>
-        </div>
-        <div id="box2">
-            <h1>Text</h1>
-        </div>
-        <div id="box3">
-            <h1>Text</h1>
-        </div>
+    <div class="okvir">
+        <div id="strelica-levo" class="strelice"> <img src="images/levo.png" alt=""> </div>
+        <div id="slajder">
 
-
+            <div class="slajd slajd1">
+                <div class="sadrzaj container">
+                    <span>Image 1 </span>
+                </div>
+            </div>
+            <div class="slajd slajd2">
+                <div class="sadrzaj">
+                    <span>Image 2</span>
+                </div>
+            </div>
+            <div class="slajd slajd3">
+                <div class="sadrzaj">
+                    <span>Image 3</span>
+                </div>
+            </div>
+        </div>
+        <div id="strelica-desno" class="strelice"> <img src="images/desno.png" alt=""> </div>
     </div>
 
 
-    <!-- </div> -->
+
 
     <div class="footer">
         <div class="fsekcija">
@@ -122,30 +132,11 @@
         </div>
     </div>
 
-   
-
-
-
-
-
-
-
-
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
-        integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
-        crossorigin="anonymous"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    
-
+    <script src="js/naslovna-slider.js"></script>
     <script src="js/navigacija.js"></script>
-    
-
 </body>
 
 </html>
