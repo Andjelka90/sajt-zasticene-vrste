@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/style-navigacija.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style-footer.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style-index.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style-forma.css">
 
 
 </head>
@@ -51,7 +51,8 @@
                         </div>
                         <ul class="main-nav" id="js-menu">
                             <li>
-                                <a href="#" class="linkovi aktivni">Naslovna <img src="images/ecology.png" alt=""></span></a>
+                                <a href="index.html" class="linkovi">Naslovna <img src="images/ecology.png"
+                                        alt=""></span></a>
                             </li>
                             <li>
                                 <a href="biljke.html" class="linkovi">Biljke <span> <img src="images/plant.png"
@@ -62,21 +63,23 @@
                                             alt=""></span></a>
                             </li>
                             <li>
-                                <a href="ribe.html" class="linkovi">Ribe <span><img src="images/fish.png" alt=""></span></a>
-                            </li>
-                            <li>
-                                <a href="ptice.html" class="linkovi">Ptice <span><img src="images/penguin.png" alt=""></a>
-                            </li>
-                            <li>
-                                <a href="herpetofauna.html" class="linkovi"> Herpetofauna <span> <img src="images/turtle.png"
+                                <a href="ribe.html" class="linkovi">Ribe <span><img src="images/fish.png"
                                             alt=""></span></a>
+                            </li>
+                            <li>
+                                <a href="ptice.html" class="linkovi">Ptice <span><img src="images/penguin.png"
+                                            alt=""></a>
+                            </li>
+                            <li>
+                                <a href="herpetofauna.html" class="linkovi"> Herpetofauna <span> <img
+                                            src="images/turtle.png" alt=""></span></a>
                             </li>
                             <li>
                                 <a href="sisari.html" class="linkovi">Sisari <span> <img src="images/hedgehog.png"
                                             alt=""></span></a>
                             </li>
                             <li>
-                                <a href="forma.html" class="linkovi">Kontakt <span> <img src="images/leaves.png"
+                                <a href="#" class="linkovi aktivni">Kontakt <span> <img src="images/leaves.png"
                                             alt=""></span></a>
                             </li>
                         </ul>
@@ -89,19 +92,47 @@
     </div>
 
 
-    <div class="paralex">
-
-        <div id="box1">
-            <h1>Text</h1>
-        </div>
-        <div id="box2">
-            <h1>Text</h1>
-        </div>
-        <div id="box3">
-            <h1>Text</h1>
-        </div>
 
 
+    <!-- forma -->
+    <div class="pozadina">
+        <div class="container">
+
+            <div class="okvir">
+                <div class="logo">
+                    <div class="centar"><img src="images/planet-earth.png" alt=""></div>
+                </div>
+                <div class="kontakt">
+                    <h3>Posaljite nam poruku</h3>
+                    <form id="myForm" action="https://formspree.io/andja.jovanovic287@gmail.com" method="POST">
+                        <p>
+                            <label for="firstName">Ime</label>
+                            <input type="text" name="firstName" class="input-text" id="firstName">
+                            <span id="pomocni-text-firstName" class="error">Dozvoljena su samo slova</span>
+                        </p>
+                        <p>
+                            <label for="lastName">Prezime</label>
+                            <input type="text" name="lastName" class="input-text" id="lastName"> 
+                            <span id="pomocni-text-lastName" class="error">Dozvoljena su samo slova</span>
+                        </p>
+                        <p class="full">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="input-text" id="email">
+                            <span id="pomocni-text-email" class="error">Email mora sadrzati @ i .</span>
+                        </p>
+
+                        <p class="full">
+                            <label for="poruka">Poruka</label>
+                            <textarea name="poruka" rows="5" class="input-text" id="poruka"></textarea>
+                            <span id="pomocni-text-poruka" class="error"></span>
+                        </p>
+                        <p class="full">
+                            <button class="dugme" type="submit" onclick="return checkInput()"> <img src="images/send.png" alt="" > </button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -122,7 +153,7 @@
         </div>
     </div>
 
-   
+    <!-- </div> -->
 
 
 
@@ -138,13 +169,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    
-
+    <script src="js/forma.js"></script>
     <script src="js/navigacija.js"></script>
-    
 
 </body>
 
