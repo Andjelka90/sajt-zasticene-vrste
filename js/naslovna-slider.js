@@ -1,7 +1,7 @@
 let slajderSlike = document.querySelectorAll(".slajd")
 let strelicaLevo = document.getElementById("strelica-levo")
 let strelicaDesno = document.getElementById("strelica-desno")
-let  current = 0;
+let  trenutna = 0;
 
 
 function reset() {
@@ -17,28 +17,28 @@ function start() {
 
 function levo() {
   reset();
-  slajderSlike[current - 1].style.display = "block";
-  current--;
+  slajderSlike[trenutna - 1].style.display = "block";
+  trenutna--;
 }
 
 function desno() {
   reset();
-  slajderSlike[current + 1].style.display = "block";
-  current++;
+  slajderSlike[trenutna + 1].style.display = "block";
+  trenutna++;
 }
 
 
 
 strelicaLevo.addEventListener("click", function() {
-  if (current === 0) {
-    current = slajderSlike.length;
+  if (trenutna === 0) {
+    trenutna = slajderSlike.length;
   }
   levo();
 });
 
 strelicaDesno.addEventListener("click", function() {
-  if (current === slajderSlike.length - 1) {
-    current = -1;
+  if (trenutna === slajderSlike.length - 1) {
+    trenutna = -1;
   }
   desno();
 });
