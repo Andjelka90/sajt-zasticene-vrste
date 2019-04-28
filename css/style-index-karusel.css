@@ -23,13 +23,13 @@ body,#slajder,.okvir,.sadrzaj {
 }
 
 .slajd1{
-  background-image: url(../images/paralax3.jpg);
+  background-image: url(../images/Naslovna/beloglavi-sup.jpg);
 }  
 .slajd2{
-  background-image: url(../images/paralax6.jpg);   
+  background-image: url(../images/Naslovna/meda.jpg);   
 }
 .slajd3{
-  background-image: url(../images/paralax7.jpg);
+  background-image: url(../images/Naslovna/dabar.jpg);
 }
 
 .sadrzaj{
@@ -63,17 +63,11 @@ body,#slajder,.okvir,.sadrzaj {
 #strelica-levo {
     left: 0;
     margin-left: 10px;
-    filter: blur(3px);
-  -webkit-filter: blur(3px);
-
 }
   
 #strelica-desno {
     right: 0;
     margin-right: 10px;
-    filter: blur(3px);
-  -webkit-filter: blur(3px);
-
 }
 
 
