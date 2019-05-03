@@ -18,18 +18,17 @@ body,#slajder,.okvir,.sadrzaj {
 .slajd{
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-   
+  background-repeat: no-repeat;   
 }
 
 .slajd1{
-  background-image: url(../images/Naslovna/beloglavi-sup.jpg);
+  background-image: url(../images/naslovna/beloglavi-sup.jpg);
 }  
 .slajd2{
-  background-image: url(../images/Naslovna/meda.jpg);   
+  background-image: url(../images/naslovna/meda.jpg);   
 }
 .slajd3{
-  background-image: url(../images/Naslovna/dabar.jpg);
+  background-image: url(../images/naslovna/dabar.jpg);
 }
 
 .sadrzaj{
