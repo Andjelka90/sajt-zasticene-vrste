@@ -46,7 +46,7 @@ function validateLastName() {
 }
 
 function validateEmail() {
-  if (regEx.test(inputEmail.value) && inputEmail.value !== "") {
+  if (regEx.test(inputEmail.value)) {
     inputEmail.style.border = '1px solid #00ff99';
     helpTextEmail.style.visibility = 'hidden';
 
@@ -59,6 +59,15 @@ function validateEmail() {
     }
   }
 }
+
+function validateMessage() {
+  if (inputMessage.value.trim() !== "") {
+    inputMessage.style.border = '1px solid #00ff99';
+  } else {
+    inputMessage.style.border = '1px solid #ccebff';
+  }
+}
+
 
 
 
@@ -82,6 +91,7 @@ function checkInput() {
 inputFirstName.addEventListener("focusout", validateFirstName);
 inputLastName.addEventListener("focusout", validateLastName);
 inputEmail.addEventListener("focusout", validateEmail);
+inputMessage.addEventListener("focusout",validateMessage);
 
 inputFirstName.addEventListener("input", checkInput);
 inputLastName.addEventListener("input", checkInput);

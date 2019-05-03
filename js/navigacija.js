@@ -2,14 +2,14 @@ let mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navigacija-toggle");
 
 navBarToggle.addEventListener("click", function () {
-  mainNav.classList.toggle("active");
-  
+  mainNav.classList.toggle("active"); 
 });
 
 
 $(".burger").click(function () {
   $("ul").toggle("slow");
 });
+
 
 $("#back-to-top").hide();
 $(window).scroll(function() {
