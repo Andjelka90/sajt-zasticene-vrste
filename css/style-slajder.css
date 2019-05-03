@@ -66,6 +66,18 @@ body{
 }
 
 
+/* .img-nav img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-hover:hover .img-nav img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+} */
+
+
+
 @keyframes example {
   from {transform: scale(1.0)}
   to {transform: scale(1.2)}

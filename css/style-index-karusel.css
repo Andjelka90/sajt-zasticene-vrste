@@ -40,22 +40,33 @@ body,#slajder,.okvir,.sadrzaj {
   text-align: center;
   padding: 10px;
 }
+
+
 .container {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   margin: 0 auto;
  
 }
 
+.sadrzaj span.prvi{
+  color:rgb(13, 34, 65);
+}
 .sadrzaj span{
-    font-size: 15px;
-    color:black;
+  color:rgb(235, 229, 229);
+  margin: 0px;
+  font-style: italic;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-position: center; 
+  font-weight: 500;
 }
 
 .strelice {
     cursor: pointer;
     position: absolute;
-    top: 50%;  
+    top: 45%;  
     
 }
 
@@ -83,6 +94,11 @@ body,#slajder,.okvir,.sadrzaj {
 
 
 @media screen and (min-width:1200px){
+
+  .sadrzaj span{
+    font-size: 30px;
+    font-weight: 700; 
+  }
   .container {
    
     width: 100%;
