@@ -3,21 +3,23 @@ let closeImgs = document.querySelectorAll('.modal-close');
 
 
 modalImgs.forEach(function (img) {
-  img.onclick = function () {
+  img.addEventListener("click",function () {
     let modal = img.getAttribute('data-modal');
     document.getElementById(modal).style.display = 'block';
-  };
+  });
 });
 
 
 closeImgs.forEach(function (img) {
-  img.onclick = function () {
-    let modal = img.closest('.modal').style.display = 'none';
-  }
+  img.addEventListener("click",function () {
+    img.closest('.modal').style.display = 'none';
+  });
 })
 
-window.onclick = function (e) {
+window.addEventListener("click", function (e) {
   if (e.target.className === "modal") {
     e.target.style.display = "none";
-  }
-};
+  };
+});
+
+

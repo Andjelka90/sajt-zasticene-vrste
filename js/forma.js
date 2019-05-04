@@ -105,6 +105,7 @@ form.addEventListener('submit', function (event) {
   if (inputFirstName.value.trim() !== "" && inputLastName.value.trim() !== "" &&
     inputEmail.value.trim() !== "" && inputMessage.value.trim() !== "") {
     if (regExLetters.test(inputFirstName.value) && regEx.test(inputEmail.value) && regExLetters.test(inputLastName.value)) {
+      form.submit();
       form.reset();
       button.style.backgroundColor = '#c9e6ff';
       inputFirstName.style.border = '1px solid #ccebff';

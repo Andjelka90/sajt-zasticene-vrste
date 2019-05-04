@@ -1,6 +1,7 @@
-let mainNav = document.getElementById("js-menu");
-let navBarToggle = document.getElementById("js-navigacija-toggle");
-let scrollIcon = document.getElementById("back-to-top");
+const mainNav = document.getElementById("js-menu");
+const navBarToggle = document.getElementById("js-navigacija-toggle");
+const scrollIcon = document.getElementById("back-to-top");
+
 
 navBarToggle.addEventListener("click", function () {
   mainNav.classList.toggle("active"); 
@@ -10,9 +11,6 @@ navBarToggle.addEventListener("click", function () {
 $(".burger").click(function () {
   $("ul").toggle("slow");
 });
-
-
-
 
 $("#back-to-top").hide();
 
@@ -25,7 +23,6 @@ $(window).scroll(function() {
         $("#back-to-top").fadeOut("fast");
     }
 });
-
 
 
 
