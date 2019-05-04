@@ -1,7 +1,13 @@
-let slajderSlike = document.querySelectorAll(".slajd")
-let strelicaLevo = document.getElementById("strelica-levo")
-let strelicaDesno = document.getElementById("strelica-desno")
+const slajderSlike = document.querySelectorAll(".slajd");
+const strelicaLevo = document.getElementById("strelica-levo");
+const strelicaDesno = document.getElementById("strelica-desno");
+// const prvaSlika = document.getElementById("prva");
 let  trenutna = 0;
+
+// prvaSlika.addEventListener(onload,function(){
+  
+//   prvaSlika.style.visibility='visible';
+// });
 
 
 function reset() {
@@ -45,3 +51,4 @@ strelicaDesno.addEventListener("click", function() {
 
 start();
 
+$("#prva").css('visibility', 'visible');
