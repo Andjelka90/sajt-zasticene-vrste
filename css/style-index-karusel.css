@@ -13,16 +13,24 @@ body,#slajder,.okvir,.sadrzaj {
 .okvir {
   position: relative;
 }
-/* 
-.slajd {
-   visibility: hidden;
-   opacity: 0;  
-   
+
+#demotext1 {
+  color: #FFFFFF;  
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  color: #FFFFFF;
 }
-.slajd{
-  visibility: visible;
-  opacity: 1;
-} */
+
+#demotext2 {
+  color: #FFFFFF;  
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  color: #FFFFFF;
+}
+
+#demotext3 {
+  color: #FFFFFF;  
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  color: #FFFFFF;
+}
 
 .okvir{
   width: 100%;
