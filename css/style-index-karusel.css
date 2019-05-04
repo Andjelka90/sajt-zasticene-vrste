@@ -13,16 +13,30 @@ body,#slajder,.okvir,.sadrzaj {
 .okvir {
   position: relative;
 }
-
-
+/* 
+.slajd {
+   visibility: hidden;
+   opacity: 0;  
+   
+}
 .slajd{
+  visibility: visible;
+  opacity: 1;
+} */
+
+.okvir{
+  width: 100%;
+  
+}
+.slajd{  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;   
 }
 
 .slajd1{
-  background-image: url(../images/naslovna/beloglavi-sup.jpg);
+  background-image: url(../images/naslovna/beloglavi-sup.jpg); 
+  visibility: hidden;
 }  
 .slajd2{
   background-image: url(../images/naslovna/meda.jpg);   
@@ -50,22 +64,24 @@ body,#slajder,.okvir,.sadrzaj {
 
 .sadrzaj span.prvi{
   color:rgb(13, 34, 65);
+
 }
 .sadrzaj span{
   color:rgb(235, 229, 229);
-  margin: 0px;
+  margin-top: 20%;
+  /* margin: 0px; */
   font-style: italic;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
   background-position: center; 
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .strelice {
     cursor: pointer;
     position: absolute;
-    top: 45%;  
+    top: 50%;  
     
 }
 
@@ -83,11 +99,16 @@ body,#slajder,.okvir,.sadrzaj {
 
 @media screen and (min-width:768px){
   .container {
-    margin-top:50%;
-    width: 100%;
+    
+    width: 70%;
     padding: 10px;
     margin: 0 auto;
     vertical-align: middle;
+  }
+  .sadrzaj span{
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: 700; 
   }
 }
 
@@ -95,6 +116,7 @@ body,#slajder,.okvir,.sadrzaj {
 @media screen and (min-width:1200px){
 
   .sadrzaj span{
+    margin-top: 7%;
     font-size: 30px;
     font-weight: 700; 
   }
