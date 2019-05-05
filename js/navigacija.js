@@ -3,6 +3,7 @@ const navBarToggle = document.getElementById("js-navigacija-toggle");
 const scrollIcon = document.getElementById("back-to-top");
 
 
+
 navBarToggle.addEventListener("click", function () {
   mainNav.classList.toggle("active"); 
 });
