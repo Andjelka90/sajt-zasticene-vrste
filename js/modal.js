@@ -9,9 +9,9 @@ modalImgs.forEach(function (img) {
 });
 
 
-closeImgs.forEach(function (img) {
-  img.addEventListener("click",function () {
-    img.closest('.modal').style.display = 'none';
+closeImgs.forEach(function (close) {
+  close.addEventListener("click",function () {
+    close.closest('.modal').style.display = 'none';
   });
 })
 
