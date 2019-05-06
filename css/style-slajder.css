@@ -7,7 +7,8 @@ body{
   backface-visibility: hidden;
 }
 
- /* radi */
+/*resenje*/
+
 .slider-for,
 .slider-nav {
    visibility: hidden;
@@ -35,7 +36,9 @@ body{
   visibility: visible!important;
 }
 
-/*radi*/
+
+
+
 
 .karusel {
   background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
@@ -55,7 +58,6 @@ body{
 
 .slider-for img {
   width: 100%;
-  /* border: 10px solid rgba(189, 156, 156, 0.089); */
   cursor: pointer;
   
 }
@@ -66,17 +68,6 @@ body{
 }
 
 
-/* .img-nav img {
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-}
-
-.zoom-hover:hover .img-nav img {
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
-} */
-
-
 
 @keyframes example {
   from {transform: scale(1.0)}
@@ -85,7 +76,6 @@ body{
 .slider-nav img:hover { 
   animation-name: example;
   animation-duration: 1s;
-  /* animation-iteration-count: infinite; */
   transform: scale(1.2);
 }
 
