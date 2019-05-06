@@ -44,6 +44,7 @@ strelicaDesno.addEventListener("click", function() {
   }
   desno();
 });
+
 window.addEventListener("load",start());
 
 $("#prva").css('visibility', 'visible');

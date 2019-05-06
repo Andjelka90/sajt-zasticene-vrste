@@ -1,7 +1,6 @@
 let modalImgs = document.querySelectorAll(".modal-open");
 let closeImgs = document.querySelectorAll('.modal-close');
 
-
 modalImgs.forEach(function (img) {
   img.addEventListener("click",function () {
     let modal = img.getAttribute('data-modal');
