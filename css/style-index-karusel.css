@@ -77,17 +77,12 @@ body,#slajder,.okvir,.sadrzaj {
 .sadrzaj span{
   color:rgb(235, 229, 229);
   margin-top: 20%;
+  /* margin: 0px; */
   font-style: italic;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
   background-position: center; 
-  font-weight: 700;
-}
-
-.sadrzaj span h2{
-  text-decoration:underline;
-  font-size: 25px;
   font-weight: 700;
 }
 
@@ -118,10 +113,6 @@ body,#slajder,.okvir,.sadrzaj {
     margin: 0 auto;
     vertical-align: middle;
   }
-  .sadrzaj span h2{   
-    font-size: 35px;
-    font-weight: 700;
-  }
   .sadrzaj span{
     margin-top: 10%;
     font-size: 25px;
@@ -136,10 +127,6 @@ body,#slajder,.okvir,.sadrzaj {
     margin-top: 7%;
     font-size: 30px;
     font-weight: 700; 
-  }
-  .sadrzaj span h2{   
-    font-size: 35px;
-    font-weight: 700;
   }
   .container {
    

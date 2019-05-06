@@ -1,7 +1,6 @@
 *{
   box-sizing: border-box;
 }
-
 *:focus{
   outline: none;
   background: #c9e6ff;
@@ -9,7 +8,6 @@
 .pozadina{
   background: linear-gradient(to bottom, #076585, #fff); 
 }
-
 .container{
   width:100%;
   margin-left:auto;
@@ -115,7 +113,9 @@
 	height:300px;
 	width:300px;
   }
-  
+  /* .pozadina{
+    height: 90vh;
+  } */
   .error{
     color: red;
     font-size: 15px;
@@ -130,6 +130,8 @@
     margin-top: 10%;
     margin-bottom: 10%;
   }
-  
+  /* .pozadina{
+    height: 90vh;
+  } */
   
 }
