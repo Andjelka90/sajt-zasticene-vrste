@@ -103,30 +103,30 @@
                     <div class="centar"><img src="images/planet-earth.png" alt=""></div>
                 </div>
                 <div class="kontakt">
-                    <h3>Posaljite nam poruku</h3>
+                    <h3>Pošaljite nam poruku</h3>
                     <form id="myForm" action="https://formspree.io/zastitavrsta@gmail.com" method="POST">
-                        <p>
+                        <p class="ime">
                             <label for="firstName">Ime</label>
                             <input type="text" name="firstName" class="input-text" id="firstName">
-                            <span id="pomocni-text-firstName" class="error">Dozvoljena su samo slova (2-12) i prvo slovo mora biti veliko</span>
+                            <span id="pomocni-text-firstName" class="error">Dozvoljena su samo slova (2-12) i prvo slovo mora biti veliko</span> <br>
                         </p>
-                        <p>
+                        <p class="prezime"> 
                             <label for="lastName">Prezime</label>
                             <input type="text" name="lastName" class="input-text" id="lastName"> 
                             <span id="pomocni-text-lastName" class="error">Dozvoljena su samo slova (2-12) i prvo slovo mora biti veliko</span>
                         </p>
-                        <p class="full">
+                        <p class="polje">
                             <label for="email">Email</label>
                             <input type="email" name="email" class="input-text" id="email">
                             <span id="pomocni-text-email" class="error">Email mora sadrzati @ i . a domen 2 do 3 slova</span>
                         </p>
 
-                        <p class="full">
+                        <p class="polje">
                             <label for="poruka">Poruka</label>
                             <textarea name="poruka" rows="5" class="input-text" id="poruka" maxlength="500"></textarea>
                             <span id="pomocni-text-poruka" class="error"></span>
                         </p>
-                        <p class="full">
+                        <p class="polje">
                             <button class="dugme" type="submit"> <img src="images/send.png" alt="" > </button>
                         </p>
                     </form>
