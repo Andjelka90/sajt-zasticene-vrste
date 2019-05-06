@@ -1,7 +1,10 @@
 *{
   box-sizing: border-box;
 }
-
+*:focus{
+  outline: none;
+  
+}
 .pozadina{
   background: linear-gradient(to bottom, #076585, #fff); 
 }
