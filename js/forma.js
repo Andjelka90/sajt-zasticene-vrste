@@ -6,7 +6,6 @@ const button = document.querySelector('.dugme');
 const regEx = /^\w+([\.\-]?\w+)+@\w+([\.\-]?\w+)+(\.\w{2,3})+$/;
 const regExLetters = /^[A-ZČĆŠĐŽ][a-zčćšđž]{1,11}$/;
 const form = document.getElementById('myForm');
-const full = document.querySelectorAll('full');
 const helpTextFirstName = document.getElementById('pomocni-text-firstName');
 const helpTextLastName = document.getElementById('pomocni-text-lastName');
 const helpTextEmail = document.getElementById('pomocni-text-email');
