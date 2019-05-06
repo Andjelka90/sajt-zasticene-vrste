@@ -3,7 +3,7 @@
 }
 *:focus{
   outline: none;
-  
+  background: #c9e6ff;
 }
 .pozadina{
   background: linear-gradient(to bottom, #076585, #fff); 
