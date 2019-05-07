@@ -70,13 +70,14 @@ body,#slajder,.okvir,.sadrzaj {
  
 }
 
-.sadrzaj span.prvi{
+/* .sadrzaj span.prvi{
   color:rgb(13, 34, 65);
 
-}
+} */
+
 .sadrzaj span{
   color:rgb(235, 229, 229);
-  margin-top: 20%;
+  margin-top: 5%;
   font-style: italic;
   text-align: center;
   display: table-cell;
@@ -85,10 +86,20 @@ body,#slajder,.okvir,.sadrzaj {
   font-weight: 700;
 }
 
-.sadrzaj span h2{
+.sadrzaj h2{
   text-decoration:underline;
   font-size: 25px;
   font-weight: 700;
+  color:rgb(235, 229, 229);
+  font-style: italic;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-position: center; 
+  color: #FFFFFF;  
+  text-shadow: 1px 2px 0 #969696;
+  color: #FFFFFF;
+ 
 }
 
 .strelice {
@@ -118,12 +129,12 @@ body,#slajder,.okvir,.sadrzaj {
     margin: 0 auto;
     vertical-align: middle;
   }
-  .sadrzaj span h2{   
+  .sadrzaj h2{   
     font-size: 35px;
     font-weight: 700;
   }
   .sadrzaj span{
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 25px;
     font-weight: 700; 
   }
@@ -133,13 +144,14 @@ body,#slajder,.okvir,.sadrzaj {
 @media screen and (min-width:1200px){
 
   .sadrzaj span{
-    margin-top: 7%;
+    margin-top: 5%;
     font-size: 30px;
     font-weight: 700; 
   }
-  .sadrzaj span h2{   
+  .sadrzaj h2{   
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
   }
   .container {
    
